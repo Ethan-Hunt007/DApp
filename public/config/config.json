@@ -7,10 +7,10 @@
     "ID": 56
   },
   "NFT_NAME": "Olympus Finance",
-  "SYMBOL": "OLM",
+  "SYMBOL": "$OLM",
   "MAX_SUPPLY": 992,
-  "WEI_COST": 4000000000000000000,
-  "DISPLAY_COST": 4,
+  "WEI_COST": 5,000,000,000,
+  "DISPLAY_COST": .0002,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https:/olympusfinance.io",
