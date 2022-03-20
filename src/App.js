@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit BSCScan to view it.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -207,7 +207,7 @@ function App() {
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -399,11 +399,7 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg
-              alt={"example"}
-              src={"/config/images/example.gif"}
-              style={{ transform: "scaleX(-1)" }}
-            />
+            
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
@@ -426,7 +422,7 @@ function App() {
             }}
           >
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
+            successfully mint your $OLM. We recommend that you don't lower the
             gas limit.
           </s.TextDescription>
         </s.Container>
